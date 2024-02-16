@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Examen_22_23 DAW M09</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS & JS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+</head>
+<style>
+    body{
+        overflow-x: hidden;
+    }
+</style>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+<!-- 1er apartat -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="img/logo.png" width="75%" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Classe</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Examens</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Element en blanc</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Inserta carrousel 2on apartat -->
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="./img/Slider1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+                <h3 class="d-none d-md-block">Capçalera 1</h3>
+                <p class="d-none d-lg-block">Primera mostra de text</p>
+            </div>
+        </div>
+        <div class="carousel-item active">
+            <img src="./img/Slider2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+                <h3 class="d-block d-sm-none">Capçalera 2</h3>
+                <p class="d-none d-xs-block">Segona mostra de text</p>
+
+            </div>
+
+        </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+
+<div class="container text-center pt-3">
+    <h3>La nostra classe</h3>
+    <p><em>Bootstrap es el meu pastor..</em></p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <!-- 3er apartat -->
+    <div class="row">
+        <div class="col">
+            <div class="card border-0" style="width: 18rem;">
+                <img src="./img/Nom1.jpg" class="card-img-top rounded-circle" alt="Jelo 1" data-bs-toggle="modal" data-bs-target="#modalNom1" width="300px" height="300px">
+                <div class="card-body">
+                    <p class="text-center"><strong>Nom1</strong></p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade" id="modalNom1" tabindex="-1" aria-labelledby="modalNom1Label" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalNom1Label">Nom1</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Hola, sóc
+                        la granota Gustau i m'agrada estudiar
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="col">
+            <div class="card border-0"  style="width: 18rem;">
+                <img src="./img/Nom2.jpg " class="card-img-top rounded-circle border border-danger " alt="Jelo 1" width="300px" height="300px">
+                <div class="card-body">
+                    <p class="text-center"><strong>Nom2</strong></p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col">
+            <div class="card border-0" style="width: 18rem;">
+                <img src="./img/Nom3.jpg" class="card-img-top border-top border-warning" alt="Jelo 1" role="button" data-bs-toggle="collapse" data-bs-target="#collapseTextNom3" aria-expanded="false" aria-controls="collapseTextNom3" width="300px" height="300px">
+                <div class="card-body">
+                    <p class="text-center"><strong>Nom3</strong></p>
+                    <div class="collapse" id="collapseTextNom3">
+                        <div class="card card-body">
+                            Em dic Elmo i m'agrada jugar amb els meus amics.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card border-0"  style="width: 18rem;">
+                <img src="./img/Nom2.jpg " class="card-img-top rounded-circle border border-danger " alt="Jelo 1" width="300px" height="300px">
+                <div class="card-body">
+                    <p class="text-center"><strong>Nom2</strong></p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+
+
+
+
+<div>
+    <div class="container text-center">
+        <h3>Dades examens</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam.</p>
+        <p> Recorda que cal estudiar!</p>
+    </div>
+</div>
+<div id="contact" class="container">
+    <h3 class="text-center">Contact</h3>
+    <form>
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <label for="nom">Nom</label>
+                <input type="text" class="form-control" id="nom" placeholder="Nom" required>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Correu electrònic" required>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="ciutat">City</label>
+                <input type="text" class="form-control" id="ciutat" placeholder="Ciutat">
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="provincia">Provincia</label>
+                <select class="form-control" id="provincia">
+                    <option value="Tarragona" selected>Tarragona</option>
+                    <option value="Girona">Girona</option>
+                    <option value="Barcelona">Barcelona</option>
+                    <option value="Lleida">Lleida</option>
+                </select>
+            </div>
+        </div>
+        <button class="btn btn-primary" type="submit">Enviar</button>
+    </form>
+</div>
+    <p class="text-center"><em>Demana aquí que la teva nota pugi</em></p>
+    <div class="row">
+        <div class="col-md-12">
+            <p class="text-center">Tens algun sugeriment?</p>
+            <!-- 4rt apartat -->
+        </div>
+    </div>
+</div>
+</body>
+</html>
